@@ -35,4 +35,4 @@ def task_3():
             email = data[name]['email']
             return f"Number: {phone}, Email: {email}"
         else:
-            print(f"User not found.")
+            return(f"User not found.")
