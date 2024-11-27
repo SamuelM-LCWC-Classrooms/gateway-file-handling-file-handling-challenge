@@ -10,7 +10,7 @@ def test_task_1():
 def test_task_2_example_order():
     with patch("builtins.input", return_value="S4,P3,P7,X2,D4,C1,W2"):
         result = task.task_2()
-        assert result == 48.49  # Total: 3.50 + 13.99 + 11.40 + 0.90 + 6.20 + 1.50 + 1.20
+        assert result == 38.69  # Total: 3.50 + 13.99 + 11.40 + 0.90 + 6.20 + 1.50 + 1.20
 
 def test_task_2_different_order():
     with patch("builtins.input", return_value="P1,P2,X1"):
